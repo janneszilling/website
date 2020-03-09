@@ -184,6 +184,7 @@ body {
   background-color: transparent;
   display: block;
   margin-left: 40px;
+  text-decoration: none;
 }
 .logo {
   width: 87px;
