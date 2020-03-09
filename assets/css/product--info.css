@@ -1,0 +1,56 @@
+.outer--wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 300vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.slide--1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slide--2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slide--3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info--1-1{
+    background-image: url('./assets/img/photo_img3.jpg');
+}
+.info--1-2{
+    background-image: url('./assets/img/photo_img4.jpg');
+}
+.info--1-3{
+    background-image: url('./assets/img/photo_img1.jpg');
+}
+.info--2-1{
+    background-image: url('./assets/img/03-Moodboard.png');
+}
+.info--2-2{
+    background-image: url('./assets/img/05-Moodboard.png');
+}
+.info--2-3{
+    background-image: url('./assets/img/07-Moodboard.png');
+}
