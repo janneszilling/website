@@ -449,12 +449,12 @@ label:focus,
 .project .img--01 {
   width: 500px;
   height: 550px;
-  background-color: tomato;
+  background-image: url("../img/photo_img2.jpg");
 }
 .project .img--02 {
   width: 500px;
   height: 550px;
-  background-color: tomato;
+  background-image: url("../img/photo_03.png");
 }
 .project .img--03 {
   width: 500px;
